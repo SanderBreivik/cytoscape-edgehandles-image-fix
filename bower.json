@@ -1,0 +1,20 @@
+{
+    "name": "cytoscape-edgehandles-image-fix",
+    "description": "Edge creation extension for Cytoscape.js with image handles working",
+    "main": "cytoscape-edgehandles.js",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "keywords": [
+        "cytoscape",
+        "cyext"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "cytoscape": "^2.2.8"
+    }
+}
