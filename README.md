@@ -1,4 +1,4 @@
-cytoscape-edgehandles-imnage-fix
+cytoscape-edgehandles-image-fix
 ================================================================================
 
 
