@@ -704,14 +704,16 @@ SOFTWARE.
               ctx.lineWidth = options().handleLineWidth;
               ctx.stroke();
             }
-
-            if(options().handleIcon){
-              var img = options().handleIcon;
-              var width = img.width*cy.zoom(), height = img.height*cy.zoom();
-              img.addEventListener('load', e => {
-                ctx.drawImage(img, hx - (width/2), hy - (height/2), width, height)
+             
+            //HARDCODED ICON
+            if (true) {
+              var icon = new Image(25, 25);
+              var width = icon.width * cy.zoom(), height = icon.height * cy.zoom();
+              icon.src = "https://img.icons8.com/pastel-glyph/64/000000/plus.png"
+              icon.addEventListener("load", e => {
+                ctx.drawImage(icon, hx - (width / 2), hy - (height / 2), width, height);
               })
-            } 
+            }
 
             drawsClear = false;
           }
